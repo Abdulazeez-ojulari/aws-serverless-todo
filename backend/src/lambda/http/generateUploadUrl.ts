@@ -6,7 +6,7 @@ import { cors, httpErrorHandler } from 'middy/middlewares'
 
 // import { createAttachmentPresignedUrl } from '../../businessLogic/todos'
 import { getUserId } from '../utils'
-import { getTodo, updateTodoAttachment } from '../../helpers/todos'
+import { getTodo, updateTodoAttachment } from '../../businessLogic/todos'
 import { AttachmentUtils } from '../../helpers/attachmentUtils'
 import { createLogger } from '../../utils/logger'
 
